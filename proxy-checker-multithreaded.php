@@ -48,7 +48,7 @@ foreach($ch as $id => $get_dados) {
 	curl_multi_remove_handle($mh,$get_dados);
 	//limpa os curls do multi-curl
 	if (strpos($conteudo[$id], 'href="https://www.google.com/calendar?tab=wc"') == true) {
-		echo "[-]Proxy funcionando -> ".$proxy_list[$id]."\n";
+		echo "[-]Proxy funcionando -> ".$proxy_list[$id]."\n <br>";
 		//echo "[~]Resposta da requisicao -> ".$conteudo[$id]."\n";
 		//break;
 	}
