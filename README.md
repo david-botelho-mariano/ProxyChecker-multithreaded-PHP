@@ -1,4 +1,4 @@
-# Verificador proxy multithreaded PHP
+# Verificador de proxy multithreaded em PHP
 
 Esse programa serve para ler uma lista de proxies,criar um array de 50 proxies aleatorios do arquivo e em apos isso fazer multiplas requisiçoes paralelas (multi-thread) para verificar quais estao proxies estao funcionando.
 
